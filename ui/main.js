@@ -17,10 +17,9 @@ request.send(null);
 };
 
 
-            var button = document.getElementById('fib');
-            button.onclick = function(){
+           
                 
-                var span = document.getElementById('out');
+               
                 var fibo = function(n){
                     if(n === 0 || n===1){return n;}
                     else{
@@ -30,7 +29,7 @@ request.send(null);
                 };
                 
                 console.log(fibo(56));
-            };
+        
             
 
 
