@@ -8,4 +8,9 @@ if(y === true){console.log("To lead a happy life, tie your life to a GOAL, not t
 var element = document.getElementById("testid");
 console.log(element);
 element.innerHTML = "";
-element.innerHTML = "<h6>THIS IS CHANGED INNER<h6>; <br/><p>PARAGRAPH</p>";
+element.innerHTML = "<p>PARAGRAPH</p>";
+
+var vj = document.getElementById("vj");
+vj.onMouseOver = function(){
+    vj.style.marginLeft = "100px"; 
+};
