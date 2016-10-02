@@ -19,7 +19,6 @@ request.send(null);
 
             var button = document.getElementById('fib');
             button.onclick = function(){
-                var n = prompt('Enter number');
                 
                 var span = document.getElementById('out');
                 var fibo = function(n){
