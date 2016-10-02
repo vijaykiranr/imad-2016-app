@@ -8,3 +8,4 @@ if(y === true){console.log("To lead a happy life, tie your life to a GOAL, not t
 var element = document.getElementById("testid");
 console.log(element);
 element.innerHTML = "THIS IS CHANGED INNER";
+element.innerHTML = "<p>PARAGRAPH</p>";
