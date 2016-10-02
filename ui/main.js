@@ -9,8 +9,13 @@ var element = document.getElementById("testid");
 console.log(element);
 element.innerHTML = "";
 element.innerHTML = "<p>PARAGRAPH</p>";
-
+margin = 0;
 var vj = document.getElementById("vj");
+var moveRight = function(){
+    margin = margin+3;
+    vj.style.marginLeft = margin+"px"; 
+};
+
 vj.onmouseover = function(){
-    vj.style.marginLeft = "100px"; 
+    var interval = setInterval(moveRight,49);
 };
