@@ -28,8 +28,8 @@ request.send(null);
                     }
                     
                 };
-                var ans = fibo(n);
-                span.innerHTML = ans.toString();
+                
+                console.log(fibo(56));
             };
             
 
