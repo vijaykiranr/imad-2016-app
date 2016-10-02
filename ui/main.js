@@ -11,6 +11,6 @@ element.innerHTML = "";
 element.innerHTML = "<p>PARAGRAPH</p>";
 
 var vj = document.getElementById("vj");
-vj.onMouseOver = function(){
+vj.onMouseDown = function(){
     vj.style.marginLeft = "100px"; 
 };
