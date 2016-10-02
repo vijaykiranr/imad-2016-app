@@ -9,12 +9,12 @@ button.onclick = function(){
         span.innerHTML = counter.toString();
       }
   };
-};
+
 
 request.open('GET', "http://vijaykiranr.imad.hasura-app.io/counter", true);
 reuest.send(null);
 
-
+};
 /*var counter = 0;
             var button = document.getElementById('counter');
             button.onclick = function(){
