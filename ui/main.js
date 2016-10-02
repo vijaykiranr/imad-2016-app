@@ -15,6 +15,26 @@ request.open('GET', "http://vijaykiranr.imad.hasura-app.io/counter", true);
 request.send(null);
 
 };
+
+
+            var button = document.getElementById('fib');
+            button.onclick = function(){
+                var n = prompt('Enter number');
+                
+                var span = document.getElementById('out');
+                var fibo = function(n){
+                    if(n === 0 || n===1){return n;}
+                    else{
+                    return(fibo(n-1)+fibo(n-2));
+                    }
+                    
+                };
+                console.log(fibo(n));
+                span.innerHTML = fibo.toString();
+            };
+            
+
+
 /*var counter = 0;
             var button = document.getElementById('counter');
             button.onclick = function(){
