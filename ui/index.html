@@ -42,15 +42,7 @@
             <div class="footer">
                 This button <button id='counter'>Click Me!</button> has been clicked <span id='count'>0</span> times.
             </div>
-            <script>
-            var counter = 0;
-            var button = document.getElementById('counter');
-            button.onclick = function(){
-                var span = document.getElementById('count');
-                counter = counter+1;
-                span.innerHTML('counter');
-            }
-            </script>
+            
         </div>
     
         
@@ -65,7 +57,15 @@
             <h6>Developed by VIJAY KIRAN R. Courtesy @ IMAD TECH</h6>
         </div>-->
         <script type="text/javascript" src="/ui/main.js">
-        
+       
+            var counter = 0;
+            var button = document.getElementById('counter');
+            button.onclick = function(){
+                var span = document.getElementById('count');
+                counter = counter+1;
+                span.innerHTML('counter');
+            }
+           
         </script>
     </body>
 </html>
