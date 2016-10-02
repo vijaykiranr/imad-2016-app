@@ -12,7 +12,7 @@ element.innerHTML = "<p>PARAGRAPH</p>";
 margin = 0;
 var vj = document.getElementById("vj");
 var moveRight = function(){
-    margin = margin+3;
+    margin = margin+1;
     vj.style.marginLeft = margin+"px"; 
 };
 
