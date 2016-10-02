@@ -17,5 +17,5 @@ var moveRight = function(){
 };
 
 vj.onmouseover = function(){
-    var interval = setInterval(moveRight,49);
+    setInterval(moveRight,49);
 };
