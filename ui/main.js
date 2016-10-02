@@ -29,8 +29,8 @@ request.send(null);
                     }
                     
                 };
-                console.log(fibo(n));
-                span.innerHTML = fibo.toString();
+                var ans = fibo(n);
+                span.innerHTML = ans.toString();
             };
             
 
