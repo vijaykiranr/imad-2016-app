@@ -42,7 +42,42 @@ ul.innerHTML = list;
                 console.log(fibo(56));
         
             */
+/*
 
+Welcome to BYJU'S
+Vijay
+Academic Counsellor
+Good
+Vijay
+Hello! How may I help you?
+Student
+Hello
+Good morning
+Vijay
+Hello may I know your queries.
+Student
+I am currently working in IT TECH industry for 4 years. 
+Just came to check the website of BYJU's.
+I am passionate about two things in my life, 1.Programming/Digital; 2.Teaching.
+I think that the future of REAL KNOWLEDGE based education will happen through a LAPTOP and an INTERNET connection.
+Classrooms will be outdated in say 10 years.
+So i like this concept of ONLINE TEACHING and LEARNING.
+The only way to eliminate poverty from INDIA is by FREE EDUCATION delivered to all ages.
+So i like this concept of BYJU's and it is also aligned with my GOAL.
+Myself VIJAY KIRAN R
+Just saw your careers page.
+Right now i am pursuing a course in IIT MADRAS in MODERN APPLICATION DEVELOPMENT
+Interested in PROGRAMMING.
+What qualifications do you expect from a person aspiring to join BYJU's for a career.
+ Read
+?
+Delivered
+
+Type in your message here and press Enter to send
+Powered by LiveChat
+
+
+*/
 
 /*var counter = 0;
             var button = document.getElementById('counter');
