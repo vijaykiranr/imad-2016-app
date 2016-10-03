@@ -20,7 +20,7 @@ request.send(null);
            
                 
                
-                var fibo = function(n){
+            /*    var fibo = function(n){
                     if(n === 0 || n===1){return n;}
                     else{
                     return(this.fibo(n-1)+this.fibo(n-2));
@@ -30,7 +30,7 @@ request.send(null);
                 
                 console.log(fibo(56));
         
-            
+            */
 
 
 /*var counter = 0;
