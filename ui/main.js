@@ -16,7 +16,18 @@ request.send(null);
 
 };
 
-
+var namei = document.getElementById('name');
+var input = namei.value;
+var submit = document.getElementById('submit');
+submit.onclick = function(){
+var names = ['name1','name2','name3','name4'];
+list = '';
+for(i=0;i<names.length;i++){
+    list += '<li>'+names[i]+'</li>';
+}
+var ul = document.getElementById('namelist');
+ul.innerHTML = list;
+};
            
                 
                
