@@ -10,8 +10,9 @@ button.onclick = function(){
       }}
   };
 
-function changeText(){
-    document.getElementById('italicStuff').innerHTML = 
+var life = document.getElementById('life');
+life.onclick = function(){
+    document.getElementById('quote').innerHTML = 
     `To make to STAR; learn to AIM first!
 To learn to AIM; contrive to FLY first!
 To contrive to FLY; adieu to FEAR first!
