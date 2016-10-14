@@ -10,8 +10,7 @@ button.onclick = function(){
       }}
   };
 
-var openSesame = document.getElementById('buttonO');
-openSesame.onclick = function changeText(){
+function changeText(){
     document.getElementById('italicStuff').innerHTML = 
     `To make to STAR; learn to AIM first!
 To learn to AIM; contrive to FLY first!
