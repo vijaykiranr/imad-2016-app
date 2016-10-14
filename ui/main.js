@@ -10,6 +10,19 @@ button.onclick = function(){
       }}
   };
 
+var openSesame = document.getElementById('button');
+openSesame.onclick = function changeText(){
+    document.getElementById('italicStuff').innerHTML = 
+    `To make to STAR; learn to AIM first!
+To learn to AIM; contrive to FLY first!
+To contrive to FLY; adieu to FEAR first!
+To adieu to FEAR; dare to PEOPLE first!
+To dare to PEOPLE; comfort to GOAL first!
+To comfort to GOAL; homage to TIME first!
+To homage to TIME; apprentice to HELP first!
+To apprentice to HELP; lucubrate to INTEGRITY first!
+--- Inspired from my mind; not stolen from minds.`;
+}
 
 request.open('GET', "http://vijaykiranr.imad.hasura-app.io/counter", true);
 request.send(null);
