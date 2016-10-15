@@ -10,9 +10,7 @@ button.onclick = function(){
       }}
   };
 
-document.getElementById('change').onclick = function(){
-    document.getElementById('firstDiv').innerHTML = "CHANGE SUCCESS";
-};
+
 
 request.open('GET', "http://vijaykiranr.imad.hasura-app.io/counter", true);
 request.send(null);
