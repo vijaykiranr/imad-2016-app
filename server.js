@@ -49,7 +49,7 @@ app.get('/ui/youtubeSearch.html', function(req,res){
     res.sendFile(path.join(__dirname,'ui','youtubeSearch.html'));
 });
 
-app.get('/ui/youtubeScrip.js', function(req,res){
+app.get('/ui/youtubeScript.js', function(req,res){
    res.sendFile(path.join(__dirname,'ui','youtubeScript.js')); 
 });
 
