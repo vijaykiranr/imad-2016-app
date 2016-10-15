@@ -45,11 +45,11 @@ app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 
-app.get('/youtubeSearch', function(req,res){
+app.get('/ui/youtubeSearch.html', function(req,res){
     res.sendFile(path.join(__dirname,'ui','youtubeSearch.html'));
 });
 
-app.get('/youtubeScript', function(req,res){
+app.get('/ui/youtubeScrip.js', function(req,res){
    res.sendFile(path.join(__dirname,'ui','youtubeScript.js')); 
 });
 
