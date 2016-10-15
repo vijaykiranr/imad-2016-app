@@ -9,20 +9,10 @@ button.onclick = function(){
         span.innerHTML = counter.toString();
       }}
   };
-var text = `To make to STAR; learn to AIM first!
-To learn to AIM; contrive to FLY first!
-To contrive to FLY; adieu to FEAR first!
-To adieu to FEAR; dare to PEOPLE first!
-To dare to PEOPLE; comfort to GOAL first!
-To comfort to GOAL; homage to TIME first!
-To homage to TIME; apprentice to HELP first!
-To apprentice to HELP; lucubrate to INTEGRITY first!
---- Inspired from my mind; not stolen from minds.`;
 
-function changeText(){
-    document.getElementById('italicStuff').innerHTML = text.toString();
-    
-}
+document.getElementById('change').onclick = function(){
+    document.getElementById('firstDiv').innerHTML = 'CHANGE SUCCESS';
+};
 
 request.open('GET', "http://vijaykiranr.imad.hasura-app.io/counter", true);
 request.send(null);
