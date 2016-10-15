@@ -50,15 +50,26 @@ To homage to TIME; apprentice to HELP first!<br/><br/>
 To apprentice to HELP; lucubrate to INTEGRITY first!<br/><br/>
 --- Inspired from my mind; not stolen from minds.`;
 
-            for(i=0;i<100;i++){
-                
-            if(i===0){
-            document.getElementById('change').onclick = function(){
-    document.getElementById('firstDiv').innerHTML = text;}}
+function toggle(){
+    var dis = document.getElementById('displayText');
+    var tog = document.getElementById('toggleText');
+    
+    if(tog.style.display == 'block'){
+        tog.style.display = 'none';
+        dis.innerHTML = 'Hide Quote';
+    }
     else{
-    document.getElementById('change').onclick = function(){
-    document.getElementById('firstDiv').innerHTML = POEM of LIFE!;
-};}} </script>
+        tog.style.display = 'block';
+        dis.innerHTML = 'Show Quote';
+    }
+    
+};
+
+            </script>
+            
+            <a id = 'displayText' href = 'javascript.toggle();'>Click for my Quote</a> <== Eyes here
+            <div id = 'toggleText' style='display:none'><h3>text</h3></div>
+            
             <h3>Personal</h3>
                 <div>
                     Hello there! I am Vijay Kiran and programming is fun.
