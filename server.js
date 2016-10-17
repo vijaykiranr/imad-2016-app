@@ -53,6 +53,14 @@ app.get('/ui/youtubeScript.js', function(req,res){
    res.sendFile(path.join(__dirname,'ui','youtubeScript.js')); 
 });
 
+app.get('/ui/youtubeApp.html', function(req,res){
+    res.sendFile(path.join(__dirname,'ui','youtubeApp.html'));
+});
+
+app.get('/ui/youtubeApp.js', function(req,res){
+   res.sendFile(path.join(__dirname,'ui','youtubeApp.js')); 
+});
+
 
 
 var counter = 0;
