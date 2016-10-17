@@ -1,4 +1,4 @@
-var channelName = 'RVK Entertainment'; 
+var channelName = 'TechGuyWeb'; 
 $(document).ready(function(){
     $.get(
         "https://www.googleapis.com/youtube/v3/channels",{
