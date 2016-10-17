@@ -6,7 +6,7 @@ $(document).ready(function(){
             forUserName:channelName,
             key:'AIzaSyCR5In4DZaTP6IEZQ0r1JceuvluJRzQNLE'},
             function(data){
-                $.each(data.items,function(){
+                $.each(data.items,function(i,item){
                     console.log(item);
                 });
             }
