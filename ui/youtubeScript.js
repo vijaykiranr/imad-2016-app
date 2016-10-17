@@ -28,6 +28,11 @@ function search() {
         q:'modern web application development'
     });
     
+    function(data){
+               alert(data.items[0].title);
+               console.log(data.snippet.title);            
+      };
+    
     // Send the request to the API server,
     // and invoke onSearchRepsonse() with the response.
     request.execute(onSearchResponse);
