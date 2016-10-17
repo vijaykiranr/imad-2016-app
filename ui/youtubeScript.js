@@ -31,7 +31,7 @@ function search() {
     function(data){
                alert(data.items[0].title);
                console.log(data.snippet.title);            
-      };
+      }
     
     // Send the request to the API server,
     // and invoke onSearchRepsonse() with the response.
