@@ -38,8 +38,8 @@ ul.innerHTML = list;
 };
 
 var namei = document.getElementById('name');
-var input = namei.value;
-request.open('GET', "http://vijaykiranr.imad.hasura-app.io/submit-name?name="+input, true);
+var name = namei.value;
+request.open('GET', "http://vijaykiranr.imad.hasura-app.io/submit-name?name=" + name, true);
 request.send(null);   
 };
            
